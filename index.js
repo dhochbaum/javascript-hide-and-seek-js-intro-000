@@ -52,7 +52,7 @@ function deepestChild() {
   var level3 = level2.querySelector('div')
   var level4 = level3.querySelector('div')
   console.log(level4.textContent)
-  return level1
+  return level4
 }
 
 /*
