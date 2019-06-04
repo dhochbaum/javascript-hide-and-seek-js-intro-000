@@ -48,6 +48,10 @@ function increaseRankBy(n) {
 function deepestChild() {
   var top = document.getElementById('grand-node')
   var level1 = top.querySelector('div')
+  var level2 = level1.querySelector('div')
+  var level3 = level2.querySelector('div')
+  var level4 = level3.querySelector('div')
+  console.log(level4.textContent)
   return level1
 }
 
