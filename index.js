@@ -46,7 +46,8 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-
+  var top = document.getElementById('grand-node')
+  return top
 }
 
 /*
